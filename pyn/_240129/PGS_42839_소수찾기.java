@@ -10,7 +10,6 @@ public class p42839 {
 	static Set<Integer> pa;
 
 	public static void main(String[] args) throws Exception{
-		// TODO Auto-generated method stub
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb=new StringBuilder();
 		StringTokenizer st=new StringTokenizer(br.readLine(), " ");
