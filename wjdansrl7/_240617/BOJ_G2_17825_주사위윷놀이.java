@@ -53,7 +53,7 @@ public class BOJ_G2_17825_주사위윷놀이 {
 
         for (int i = 0; i < 10; i++) {
             int nowDice = dice[i];
-            int nowPiece = gamePiece[i];
+            int nowPiece = gamePiece[i]; // 현재 말의 위치
             if (isFinish(p[nowPiece])) return;
 
             int next = nextPoint(p[nowPiece], nowDice);

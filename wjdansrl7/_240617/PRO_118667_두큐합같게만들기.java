@@ -1,8 +1,10 @@
 package _240617;
 
-import java.util.ArrayDeque;
+import java.util.*;
+import java.io.*;
+
 public class PRO_118667_두큐합같게만들기 {
-        public int solution(int[] queue1, int[] queue2) {
+        static int solution(int[] queue1, int[] queue2) {
             int answer = 0;
 
             long sum1 = 0, sum2 = 0;
@@ -44,4 +46,9 @@ public class PRO_118667_두큐합같게만들기 {
             }
             return answer;
         }
+
+    public static void main(String[] args) {
+
+    }
+
 }
